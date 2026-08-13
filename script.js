@@ -4,7 +4,7 @@ botoes.forEach(botao => {
     botao.addEventListener('click',  curtir)
     let curtiu = false
     function curtir() {
-        let curtidas = document.querySelector('span')
+        let curtidas = document.querySelector('span') //Colocar botao.query...
        
         if(curtiu == false){
             curtiu = true
